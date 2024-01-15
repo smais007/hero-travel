@@ -1,0 +1,33 @@
+/* Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+}
+
+/*Root Style*/
+:root{
+    /*Tipography and font Size*/
+    --normal-text: 1rem;
+    --font-18: 1.125rem;
+    --font-20: 1.25rem;
+    --font-24: 1.5rem;
+    --font-28: 1.75rem;
+    --heading-3 : 2rem;
+    --heading-2 : 2.5rem;
+    --heading-1 : 4rem;
+}
+
+/*Re-useable Style*/
+section{
+    max-width: 81.25%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: var(--heading-1);
+}
