@@ -32,7 +32,8 @@
 
 /*Re-useable Style*/
 section {
-    max-width: 81.25%;
+    max-width: 1170;
+   max-width:81.25% ;
     margin: 0 auto;
 }
 
@@ -109,13 +110,7 @@ section {
     padding-top: 1.5rem;
 }
 
-.banner-form {
-    position: absolute;
-    /* left: calc(1170px - 800px); */
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-    align-items: center;
-}
+
 
 .tour-container {
     display: flex;
@@ -159,6 +154,21 @@ section {
     border-radius: 8px;
     border: none;
 }
+
+/*Bonus part | Stastic*/
+.stastic-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+
+.stastic-container h3{
+    font-weight: 800;
+    font-size: var(--font-28);
+}
+.stastic-container
 
 /*Choose Your Destination*/
 .destination-container{
@@ -303,7 +313,7 @@ line-height: normal;
 
 .choose-card {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card {
