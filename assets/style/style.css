@@ -35,7 +35,8 @@ section{
     max-width: 81.25%;
     margin: 0 auto;
 }
-li{
+
+.nav-link ul li{
     list-style: none;
 }
 
@@ -73,4 +74,78 @@ height: 56.008px;
 
 .menubar{
     display: none;
+}
+
+/*Banner Section*/
+.banner-content{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;  
+    border-radius: 16px;
+    
+}
+
+.banner-content h1{
+    color: var(--text-white);
+    font-size: var(--heading-1);
+    padding-top: 106px;
+    font-weight: 800;
+}
+
+.banner-content p{
+    width: 676px;
+    color: #FFF;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: var(--normal-text);
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+.banner-form {
+    position: absolute;
+    /* left: calc(1170px - 800px); */
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+align-items: center;
+}  
+
+.tour-container{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 3rem;
+}
+
+.tour-container h2{
+    font-size: var(--heading-2);
+    color: var(--text-black);
+    font-weight: 800;
+    padding-bottom: 1.5rem;
+    
+}
+.tour-container p, .tour-container ul>li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.tour-container p{
+    padding-bottom: 1.5rem;
+}
+.tour-container ul> li{
+    padding-bottom: 1.5rem;
+}
+.btn{
+    color: #FFF;
+    font-size: var(--font-20);
+    font-weight: 800;
+    padding: 1rem 2rem;
+    background-color: var(--text-orange);
+    border-radius: 8px;
+    border: none;
 }
