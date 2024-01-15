@@ -20,6 +20,14 @@
     --heading-3 : 2rem;
     --heading-2 : 2.5rem;
     --heading-1 : 4rem;
+
+    /*Color*/
+    --text-white: #fff;
+    --text-black: #131318;
+    --text-orange: #ff5400;
+    --text-gray: rgba(19, 19, 24, 0.50);
+    --text-dark-gray: #5A5A5D;
+
 }
 
 /*Re-useable Style*/
@@ -27,7 +35,42 @@ section{
     max-width: 81.25%;
     margin: 0 auto;
 }
+li{
+    list-style: none;
+}
 
-h1{
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 52px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.brand h1{
     font-size: var(--heading-1);
+    font-weight: 800;  
+}
+
+.brand img{
+    width: 48px;
+height: 56.008px;
+}
+
+.nav-link ul{
+    display: flex;
+    font-size: var(--font-18);
+    font-weight: 700;
+    text-align: center;
+    column-gap: 44px;
+    align-items: center;
+}
+
+.menubar{
+    display: none;
 }
