@@ -160,6 +160,95 @@ section {
     border: none;
 }
 
+/*Choose Your Destination*/
+.destination-container{
+padding-top: 100px;
+text-align: center;
+}
+.destination-container h1{
+    color: #131318;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 1.25rem;
+}
+
+.destination-container p{
+    margin: 0 auto;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-bottom: 3rem;
+}
+
+.country-img{
+    position: relative;
+    text-align: center;
+    color: white;
+    /* background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), lightgray 50% / cover no-repeat; */
+  }
+
+  .country {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+
+
+/* .item1 {
+    grid-area: 1;
+  
+  }
+  
+  .item2 {
+    grid-area: 2;
+    
+  }
+  
+  .item3 {
+    grid-area: 3;
+  }
+  .item4{
+    grid-area: 4;
+  }
+  
+  .item5{
+    grid-area: 5;
+  }
+  
+  .item6{
+    grid-area: 6;
+  }
+  
+  .item7{
+    grid-area: 7;
+  }
+
+  .destination-gallery{
+    display: grid;
+    grid-template-areas: 
+    '1 1 1 1 1 1 2 2 2 2 2 2'
+    '3 3 3 3 4 4 4 4 4 5 5 5'
+    '6 6 6 6 6 7 7 7 7 7 7 7';
+    gap: 1.5rem;
+} */
+
+
+
 /*Why choose us*/
 .choose-us-container{
     padding-bottom: 100px;
@@ -298,15 +387,15 @@ video{
 .video-title h3{
     position: absolute;
     width: 276px;
-    color:#fff;
+    color:red;
 text-align: center;
 font-family: Mulish;
 font-size: 24px;
-font-style: normal;
 font-weight: 700;
 line-height: 36px; /* 150% */
-top: 570px;
-left: 1270px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 /*Newsletter*/
