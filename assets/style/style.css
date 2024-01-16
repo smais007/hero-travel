@@ -722,7 +722,14 @@ footer hr {
         font-size: 14px;
         line-height: 24px;
     }
-
+    .brand img{
+        width: 28.724px;
+height: 33.516px;
+flex-shrink: 0;
+    }
+    .nav{
+        padding-bottom: 1rem;
+    }
 
     .brand h1 {
         font-size: 21.543px;
@@ -824,7 +831,8 @@ footer hr {
     .country-img img {
         width: 100%;
         border-radius: 16px;
-        object-fit: fill;
+        object-fit: cover;
+        height: 175.393px;
     }
 
     /*Why Choose Us*/
@@ -879,7 +887,9 @@ footer hr {
     .deal-img img {
         width: 463px;
         height: 500px;
-        object-fit: fit;
+        object-fit: cover;
+        border-radius: 16px;
+        
     }
 
     .icons {
@@ -891,7 +901,7 @@ footer hr {
         height: 297px;
         flex-shrink: 0;
         padding: 26px 25px;
-        top: 20%;
+        top: 30%;
         left: 20%;
     }
 
