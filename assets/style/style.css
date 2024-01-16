@@ -396,6 +396,16 @@ form #select {
     flex-direction: row;
     column-gap: 1.25rem;
 }
+
+.all-package{
+    position: relative;
+}
+
+.btn-container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 /*Perfet place to get lost*/
 .perfect-place {
     display: flex;
@@ -760,6 +770,10 @@ flex-shrink: 0;
     .btn {
         font-size: 18px;
         padding: 8px 20px;
+    }
+
+    .pack-btn{
+        display: hidden;
     }
     /* .deal-icon1, .deal-icon2, .deal-icon3{
         width: 303px;
