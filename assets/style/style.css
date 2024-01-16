@@ -404,7 +404,9 @@ form #select {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.deal-icon1, .deal-icon3 {
+
+.deal-icon1,
+.deal-icon3 {
     position: absolute;
     width: 579px;
     height: 389px;
@@ -430,31 +432,32 @@ form #select {
 
 }
 
-.deal-info h2{
+.deal-info h2 {
     color: #131318;
 
-font-size: 24px;
+    font-size: 24px;
 
-font-weight: 800;
-padding-bottom: 1rem;
-padding-top: 16px;
+    font-weight: 800;
+    padding-bottom: 1rem;
+    padding-top: 16px;
 }
 
-.deal-info p{
+.deal-info p {
     width: 452px;
     color: #5A5A5D;
 
-font-size: 1rem;
+    font-size: 1rem;
 
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
 }
 
-.deal-info h3{
+.deal-info h3 {
     color: #FF5400;
-font-size: 20px;
-font-weight: 800;
-padding-bottom: 1.25rem;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 1.25rem;
 }
 
 .icon {
@@ -698,6 +701,7 @@ footer hr {
         margin: 0 auto;
     }
 
+
     /* section {
         max-width: 600px;
         margin: 0 auto;
@@ -718,6 +722,7 @@ footer hr {
         font-size: 14px;
         line-height: 24px;
     }
+
 
     .brand h1 {
         font-size: 21.543px;
@@ -787,6 +792,11 @@ footer hr {
         row-gap: 1.5rem;
     }
 
+    .tour-img img {
+        width: 335px;
+        height: 342px;
+    }
+
     /*choose your destination*/
     .destination-container p,
     .choose-us-content p {
@@ -845,6 +855,82 @@ footer hr {
     .card-3 {
         margin-top: 1rem;
     }
+
+    /*Deals and Discount*/
+    .dicount h1 {
+        font-size: 20px;
+        padding-bottom: 1rem;
+    }
+
+    .dicount p {
+        font-size: 14px;
+        width: 309px;
+        margin: 0 auto;
+    }
+
+    .deal-container {
+        width: 463px;
+        height: 500px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        margin-bottom: 1rem;
+    }
+
+    .deal-img img {
+        width: 463px;
+        height: 500px;
+        object-fit: fit;
+    }
+
+    .icons {
+        display: inline-block;
+    }
+
+    .deal-icon1, .deal-icon2, .deal-icon3 {
+        width: 303px;
+        height: 297px;
+        flex-shrink: 0;
+        padding: 26px 25px;
+        top: 20%;
+        left: 20%;
+    }
+
+    .deal-info h2 {
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+
+    .deal-info p {
+        font-size: 14px;
+        width: 254px;
+    }
+
+    .deal-info h3 {
+        font-size: 16px;
+        padding-bottom: 1rem;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 8px 20px;
+    }
+
+    /* .deal-icon1, .deal-icon2, .deal-icon3{
+        width: 303px;
+        height: 297px;
+        flex-shrink: 0;
+    }
+
+    .deal-img img{
+        width: 335px;
+        height: 500px;
+        flex-shrink: 0;
+        object-fit: fit;
+    }
+
+    .icon{
+        flex-direction: column;
+    } */
 
     /*Perfect place to gaet lost*/
     .perfect-place {
