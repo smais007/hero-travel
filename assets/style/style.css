@@ -1,6 +1,5 @@
 /* Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +7,6 @@
     font-family: "Mulish", sans-serif;
     font-style: normal;
 }
-
 /*Root Style*/
 :root {
     /*Tipography and font Size*/
@@ -20,54 +18,44 @@
     --heading-3: 2rem;
     --heading-2: 2.5rem;
     --heading-1: 4rem;
-
     /*Color*/
     --text-white: #fff;
     --text-black: #131318;
     --text-orange: #ff5400;
     --text-gray: rgba(19, 19, 24, 0.50);
     --text-dark-gray: #5A5A5D;
-
 }
-
 /*Re-useable Style*/
 section {
     max-width: 1170px;
     width: 81.25%;
     margin: 0 auto;
 }
-
 .hidden {
     display: none;
 }
-
 .nav-link ul li {
     list-style: none;
 }
-
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 52px;
 }
-
 .brand {
     display: flex;
     align-items: center;
     column-gap: 1rem;
 }
-
 .brand h1 {
     font-size: var(--heading-1);
     font-weight: 800;
 }
-
 .brand img {
     width: 48px;
     height: 56.008px;
 }
-
 .nav-link ul {
     display: flex;
     font-size: var(--font-18);
@@ -76,12 +64,9 @@ section {
     column-gap: 44px;
     align-items: center;
 }
-
-
 .menubar {
     display: none;
 }
-
 /*Banner Section*/
 .banner-content {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -91,16 +76,13 @@ section {
     position: relative;
     text-align: center;
     border-radius: 16px;
-
 }
-
 .banner-content h1 {
     color: var(--text-white);
     font-size: var(--heading-1);
     padding-top: 106px;
     font-weight: 800;
 }
-
 .banner-content p {
     width: 676px;
     color: #FFF;
@@ -111,22 +93,17 @@ section {
     padding-top: 1.5rem;
     padding-bottom: 3rem;
 }
-
 .search-bar {
     display: inline-flex;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 1rem;
-
-
 }
-
 form {
     display: flex;
     /* flex-direction: colum; */
     column-gap: 1.5rem;
 }
-
 form #where,
 form #select {
     width: 174px;
@@ -137,15 +114,11 @@ form #select {
     padding: 1rem;
     color: rgba(19, 19, 24, 0.50);
     background-color: #FFF;
-
 }
-
 .fa-solid {
     padding-right: 0.5rem;
     width: 24px;
 }
-
-
 .tour-container {
     display: flex;
     padding-top: 100px;
@@ -153,15 +126,12 @@ form #select {
     justify-content: space-between;
     column-gap: 3rem;
 }
-
 .tour-container h2 {
     font-size: var(--heading-2);
     color: var(--text-black);
     font-weight: 800;
     padding-bottom: 1.5rem;
-
 }
-
 .tour-container p,
 .tour-container ul>li {
     color: rgba(19, 19, 24, 0.70);
@@ -170,15 +140,12 @@ form #select {
     line-height: 26px;
     /* 162.5% */
 }
-
 .tour-container p {
     padding-bottom: 1.5rem;
 }
-
 .tour-container ul>li {
     padding-bottom: 1.5rem;
 }
-
 .btn {
     color: #FFF;
     font-size: var(--font-20);
@@ -188,7 +155,6 @@ form #select {
     border-radius: 8px;
     border: none;
 }
-
 /*Bonus part | Stastic*/
 .stastic-container {
     text-align: center;
@@ -197,20 +163,16 @@ form #select {
     justify-content: space-around;
     padding-top: 5rem;
 }
-
 .stastic-container h3 {
     font-weight: 800;
     font-size: var(--font-28);
 }
-
 .stastic-container
-
 /*Choose Your Destination*/
 .destination-container {
     padding-top: 100px;
     text-align: center;
 }
-
 .destination-container h1 {
     color: #131318;
     text-align: center;
@@ -220,7 +182,6 @@ form #select {
     line-height: normal;
     padding-bottom: 1.25rem;
 }
-
 .destination-container p {
     margin: 0 auto;
     width: 643px;
@@ -234,14 +195,12 @@ form #select {
     /* 162.5% */
     padding-bottom: 3rem;
 }
-
 .country-img {
     position: relative;
     text-align: center;
     color: white;
     /* background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), lightgray 50% / cover no-repeat; */
 }
-
 .country {
     position: absolute;
     top: 50%;
@@ -255,7 +214,6 @@ form #select {
     font-weight: 800;
     line-height: normal;
 }
-
 .destination-gallery {
     display: grid;
     grid-template-areas:
@@ -264,58 +222,41 @@ form #select {
         'item6 item6 item6 item6 item6 item7 item7 item7 item7 item7 item7 item7';
     gap: 1.5rem;
 }
-
 .item1 {
     grid-area: item1;
-
 }
-
 .item2 {
     grid-area: item2;
-
 }
-
 .item3 {
     grid-area: item3;
 }
-
 .item4 {
     grid-area: item4;
 }
-
 .item5 {
     grid-area: item5;
 }
-
 .item6 {
     grid-area: item6;
 }
-
 .item7 {
     grid-area: item7;
 }
-
-
-
-
-
 /*Why choose us*/
 .choose-us-container {
     padding-bottom: 100px;
 }
-
 .choose-us-content {
     text-align: center;
     padding-top: 100px;
 }
-
 .choose-us-content h1 {
     color: var(--text-black);
     font-weight: 800;
     font-size: var(--heading-2);
     padding-bottom: 1.5rem;
 }
-
 .choose-us-content p {
     width: 643px;
     margin: 0 auto;
@@ -329,8 +270,6 @@ form #select {
     /* 162.5% */
     padding-bottom: 3rem;
 }
-
-
 .card h3 {
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -340,7 +279,6 @@ form #select {
     font-weight: 800;
     line-height: normal;
 }
-
 .card p {
     width: 486px;
     color: #5A5A5D;
@@ -351,12 +289,10 @@ form #select {
     line-height: 26px;
     /* 162.5% */
 }
-
 .choose-card {
     display: flex;
     justify-content: space-around;
 }
-
 .card {
     width: 573px;
     height: 284px;
@@ -364,17 +300,14 @@ form #select {
     padding: 2rem;
     border-radius: 16px;
 }
-
 .card-1 {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-
 .card-2 {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
-
 .card-3 {
     position: relative;
     margin: 0 auto;
@@ -382,7 +315,6 @@ form #select {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-
 /*Perfet place to get lost*/
 .perfect-place {
     display: flex;
@@ -391,7 +323,6 @@ form #select {
     padding-top: 113px;
     padding-bottom: 100px;
 }
-
 .place-content h2 {
     width: 448px;
     color: #131318;
@@ -402,9 +333,7 @@ form #select {
     line-height: 60px;
     /* 150% */
     padding-bottom: 1.25rem;
-
 }
-
 .place-content p {
     width: 532px;
     color: #5A5A5D;
@@ -415,10 +344,9 @@ form #select {
     line-height: 26px;
     /* 162.5% */
     padding-bottom: 1.25rem;
-
 }
-
 .place-content ul li {
+    list-style: inside;
     width: 518px;
     color: #131318;
     font-family: Mulish;
@@ -429,20 +357,17 @@ form #select {
     /* 162.5% */
     margin-bottom: 1.25rem;
 }
-
 .place-img {
     position: relative;
 }
-
 video {
     border-radius: 1rem;
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 }
-
 .video-title h3 {
     position: absolute;
     width: 276px;
-    color: red;
+    color: #fff;
     text-align: center;
     font-family: Mulish;
     font-size: 24px;
@@ -453,7 +378,6 @@ video {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 /*Newsletter*/
 .newsletter-container {
     display: flex;
@@ -462,7 +386,6 @@ video {
     column-gap: 1.5rem;
     padding-bottom: 100px;
 }
-
 .news-form {
     display: flex;
     flex-direction: column;
@@ -473,26 +396,22 @@ video {
     flex-shrink: 0;
     padding: 40px;
 }
-
 .news-form h3 {
     font-size: var(--font-24);
     font-weight: 800;
     color: #131318;
     padding-bottom: 1rem;
 }
-
 .news-form p {
     width: 350px;
     color: #5A5A5D;
     font-size: 1rem;
     padding-bottom: 1.5rem;
 }
-
 hr {
     border: 1px solid rgba(19, 19, 24, 0.10);
     margin-bottom: 1.5rem;
 }
-
 .input {
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
@@ -503,17 +422,14 @@ hr {
     margin-bottom: 1rem;
     padding: 1rem 1.25rem;
 }
-
 /* .name,
 .email {
     margin-bottom: 1rem;
     padding: 1rem 1.25rem;
 } */
-
 .news-img {
     position: relative;
 }
-
 .offer {
     position: absolute;
     top: 250px;
@@ -525,19 +441,15 @@ hr {
     border-radius: 16px;
     background: #FF5400;
 }
-
 .offer p {
     color: #FFF;
     text-align: center;
-
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-
     padding-top: 1.25rem;
     padding-bottom: 3px;
 }
-
 .offer h3 {
     color: #FFF;
     font-family: Mulish;
@@ -547,14 +459,12 @@ hr {
     line-height: normal;
     text-align: center;
 }
-
 /*Footer*/
 footer {
     text-align: center;
     background-color: rgba(19, 19, 24, 0.05);
     padding-top: 100px;
 }
-
 .footer-brand {
     display: flex;
     margin: 0 auto;
@@ -564,12 +474,10 @@ footer {
     column-gap: 1rem;
     padding-bottom: 1rem;
 }
-
 .footer-brand h2 {
     font-size: 2rem;
     font-weight: 800;
 }
-
 footer p {
     margin: 0 auto;
     width: 769px;
@@ -577,38 +485,24 @@ footer p {
     color: #5A5A5D;
     padding-bottom: 2rem;
 }
-
 .footer-social .fa-brands {
     font-size: 1.5rem;
     margin-left: 0.75rem;
     margin-bottom: 50px;
-
 }
-
 footer hr {
     width: 872px;
     margin: 0 auto;
 }
-
 .copyrights {
     padding-top: 50px;
     padding-bottom: 110px;
 }
-
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+@media screen and (max-width: 576px) {
+    body {
+        border: 3px solid red;
+        margin: 0 auto;
     }
-
     /* section {
         max-width: 600px;
         margin: 0 auto;
@@ -627,56 +521,43 @@ footer hr {
     .card p {
         font-size: 14px;
         line-height: 24px;
-        
     }
-     .brand h1 {
+    .brand h1 {
         font-size: 21.543px;
         font-weight: 800;
     }
-
     .nav-link {
         display: none;
     }
-
     .menubar {
         display: block;
         width: 24px;
         height: 24px;
     }
-
     .banner-content {
         width: 100%;
         height: 700px;
         object-fit: fit;
     }
-
-    .banner-content h1{
+    .banner-content h1 {
         font-size: 22px;
-        
     }
-
-    .banner-content p{
+    .banner-content p {
         width: 304px;
         font-size: 14px;
-        
-        
     }
-
     form {
         display: flex;
         flex-direction: column;
         row-gap: 1rem;
         width: 287px;
     }
-
     form #where,
-    form #select{
+    form #select {
         width: 255px;
-height: 52px;
-flex-shrink: 0;
+        height: 52px;
+        flex-shrink: 0;
     }
-
-
     /*Bonus part*/
     .stastic-container {
         display: grid;
@@ -684,26 +565,21 @@ flex-shrink: 0;
         column-gap: 1rem;
         row-gap: 1rem;
     }
-
     /*Our popular tour*/
     .tour-container {
         display: flex;
         flex-direction: column;
         row-gap: 1.5rem;
     }
-
     /*choose your destination*/
     .destination-container p,
     .choose-us-content p {
         width: 309px;
-        
     }
-
     /*Image gellary*/
     .destination-container {
         padding-top: 1.5rem;
     }
-
     .destination-gallery {
         display: grid;
         grid-template-areas:
@@ -716,103 +592,103 @@ flex-shrink: 0;
             'item7';
         gap: 1.5rem;
     }
-
     .country-img img {
         width: 100%;
         border-radius: 16px;
         object-fit: fill;
     }
-
     /*Why Choose Us*/
-    .card{
-        width: 335px;
+    .card {
+        width: 474px;
         height: 289px;
-        
     }
-
-    .choose-card{
+    .choose-card {
         align-items: center;
     }
-
-    .card p{
+    .card p {
         width: 271px;
-        
     }
-
-    .card h3{
+    .card h3 {
         font-size: 20px;
-        
     }
     .choose-card {
         flex-direction: column;
         gap: 1rem;
         object-fit: cover;
     }
-
     .card-3 {
         margin-top: 1rem;
     }
-
     /*Perfect place to gaet lost*/
     .perfect-place {
         flex-direction: column;
+        padding: 0 20px;
     }
-
-    .place-content h2{
+    .place-content h2 {
         width: 248px;
         line-height: 30px;
-        
     }
-
-    .place-content p, .place-content ul li{
+    .place-content p,
+    .place-content ul li {
         font-size: 14px;
         line-height: 24px;
-        
     }
     .place-content {
         padding-bottom: 1.5rem;
     }
-
-     video{
-        width: 335px;
-        height: 200px;
-        flex-shrink: 0;    }
-
+    video {
+        width: 474px;
+        height: 300px;
+        flex-shrink: 0;
+    }
+    .poster {
+        background-size: cover;
+        background-position: center;
+        object-fit: fill;
+    }
     /*Newsletter*/
     .newsletter-container {
         flex-direction: column;
     }
-
     .news-form {
         margin-bottom: 1rem;
     }
-
     /*Newsletter*/
-    .news-img img{
-        position: relative;
-        left: 20px;
-        right: 20px;
-       padding: 0 20px;
+    .news-img img {
+        width: 474px;
+        height: 300px;
+        flex-shrink: 0;
     }
-
-
+    .offer {
+        top: 190px;
+        left: 250px;
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+    }
+    .offer p {
+        font-size: 15.854px;
+    }
+    .offer h3 {
+        font-size: 21.138px;
+    }
     /*Footer Section*/
     footer {
         width: 100%;
     }
-
     .footer-brand h2 {
         font-size: 21.543px;
     }
-    footer p{
+    footer p {
         width: 287px;
         margin-bottom: 1rem;
     }
-    .footer-brand p, .about p {
+    .footer-brand p,
+    .about p {
         font-size: 14px;
-
     }
-   footer hr{
+    footer hr {
         width: 335px;
     }
 }
