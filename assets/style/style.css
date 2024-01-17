@@ -589,6 +589,10 @@ footer hr {
         margin: 0 auto;
         padding: 20px;
     } */
+     section .container{
+        max-width: 309px !important;
+        width: 90%;
+    }
     .tour-content h2,
     .destination-container h1,
     .choose-us-content h1,
@@ -792,7 +796,8 @@ flex-shrink: 0;
     /*Perfect place to gaet lost*/
     .perfect-place {
         flex-direction: column;
-        margin: 0 auto;
+        width: 309px;
+        /* margin: 0 20px; */
     }
     .place-content h2 {
         width: 248px;
@@ -872,4 +877,34 @@ flex-shrink: 0;
         padding-bottom: 31px;
         color: #131318;
     }
+}
+
+@media screen and (width <= 428px) {
+    
+    .place-content p,
+    .place-content ul li,
+    .perfect-place{
+        width: 347px;
+    }
+    .poster{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .news-form{
+        width: 347px;
+    }
+    .news-form p{
+        width: 300px;
+    }
+    .input{
+        width: auto;
+    }
+
+     .news-img img{
+        width: 347px;
+     }
+     .offer{
+        left: 115px;
+     }
 }
