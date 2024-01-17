@@ -31,9 +31,8 @@ section {
     width: 81.25%;
     margin: 0 auto;
 }
-.hidden {
-    display: none;
-}
+
+
 .nav-link ul li {
     list-style: none;
 }
