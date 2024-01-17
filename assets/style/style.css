@@ -907,4 +907,15 @@ flex-shrink: 0;
      .offer{
         left: 115px;
      }
+
+     .deal-img img{
+        width: 309px;
+     }
+     .deal-icon1,
+     .deal-icon2,
+     .deal-icon3{
+        width: 270px;
+        left:4%;
+        top: 20%;
+     }
 }
